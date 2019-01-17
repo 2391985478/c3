@@ -66,6 +66,17 @@ while(1){
         
     }
     if(code == 3){
+        printf("ruxia:\n");
+
+        for(int i = 0; i < index; i++)
+        {
+            printf("di %d gechewei(%d,%d)\n",i+1,arr[i].x,arr[i].y);
+        }
+
+        printf("huichejixu\n");
+        char xx;
+        scanf("%c",&xx);
+        scanf("%c",&xx);
 
         
     }
