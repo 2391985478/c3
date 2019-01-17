@@ -1,6 +1,13 @@
 #include <stdio.h>
+struct Point
+{
+    int x;
+    int y;
+};
 
 int main(){
+    int index = 0;
+    struct Point arr[100];
 
     printf("xitong!\n");
 
@@ -20,7 +27,21 @@ while(1){
 
 
     if(code == 1){
+        printf("shuru:\n");
+        int x;
+        int y;
+        scanf("%d",&x);
+        scanf("%d",&y);
 
+        arr[index].x = x;
+        arr[index].y = y;
+
+        index++;
+
+        printf("tianjiachenggong,huiche\n");
+        char xx;
+        scanf("%c",&xx);
+        scanf("%c",&xx);
 
     }
     if(code == 2){
