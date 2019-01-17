@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 struct Point
 {
     int x;
@@ -81,6 +82,32 @@ while(1){
         
     }
     if(code == 4){
+        printf("zuobbiao:\n");
+        int x;
+        int y;
+        scanf("%d",&x);
+        scanf("%d",&y);
+
+
+        double min = 100000;
+        int carID = 0;
+        for(int i=0;i<index;i++){
+            int dx = x - arr[i].x;
+            int dy = y - arr[i].y;
+            double l = sqrt(dx*dx+dy*dy);
+
+            if(min > l){
+                min = l;
+                carID = i;
+            }
+        }
+
+        printf("dangqianweizhiyudi%djuliwei%1f,shizuixiaojuli\n",carID+1,min);
+
+        printf("dianjihuiche\n");
+        char xx;
+        scanf("%c",&xx);
+        scanf("%c",&xx);
 
         
     }
