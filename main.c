@@ -46,6 +46,23 @@ while(1){
     }
     if(code == 2){
 
+        if(index > 0){
+
+            index--;
+            printf("shanchuchenggong,huiche\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
+        }
+
+        else{
+
+            printf("shibai,huiche\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
+        }
+
         
     }
     if(code == 3){
